@@ -6,6 +6,8 @@ function carregar(){
     var hora = data.getHours()
     msg.innerHTML = `Agora sao ${hora} horas`
 
+
+
     if (hora >=0 && hora < 12){
         img.scr = 'manha.jpg'
     }else if(hora >=12 && hora <= 17){
